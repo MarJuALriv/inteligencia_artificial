@@ -1,0 +1,66 @@
+\documentclass{article}
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{Latex}
+\author{Maria Judith Alcivar Rivas }
+\date{\today}
+\maketitle
+
+\section{Introducción}
+LaTeX, que se pronuncia "lah-tech" o "lay-tech", es una herramienta para componer documentos de aspecto profesional. Nos encontramos ante un sistema que emplea comandos para presentar contenidos complejos, sobre todo relacionados con las matemáticas como fracciones, subíndices, superíndices, matrices, derivadas parciales e integrales. 
+A diferencia de los programas de tratamiento de textos como Word o Libre Office, LaTeX funciona de forma muy diferente: el documento es un archivo de texto sin formato intercalado con comandos LaTeX que se utilizan para expresar los resultados deseados.
+Eso sí, destacar que puede emplearse para casi cualquier forma de publicación, como la redacción de CV, cartas, libros, presentaciones y mucho más.
+
+Para producir un documento visible y maquetado, el archivo LaTeX es procesado por un programa llamado motor TeX que utiliza los comandos incrustados en el archivo de texto para guiar y controlar el proceso de maquetación, convirtiendo los comandos LaTeX y el texto del documento en un archivo PDF profesional.
+
+La preparación de documentación científica, matemática u otra documentación altamente técnica que utilice símbolos y ecuaciones especializados puede utilizar un editor LaTeX para ello. Esto significa que tú sólo tienes que centrarte en el contenido de tu documento y el ordenador, a través de los comandos LaTeX y el motor TeX, se encargará del aspecto visual.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Latex.png}
+    \caption{Latex}
+    \label{fig:ejemplo}
+\end{figure}
+
+\section{Las virtudes del código abierto}
+Las fuentes de LaTeX son completamente libres y accesibles para todo el mundo. Esto te permite estudiar y modificarlo todo, desde el núcleo de LaTeX hasta los últimos paquetes de extensiones.
+Si eres principiante, esto sigue siendo una gran ventaja, ya que existe una enorme comunidad LaTeX, dispuesta a ayudarte. Sólo tienes que unirte a un foro web de LaTeX y plantear allí tus preguntas o seguir algunas webs como la que os presentamos.
+
+Hoy en día, ya nos estamos beneficiando de unos 30 años de desarrollo por parte de la comunidad TeX. La filosofía del código abierto lo ha hecho posible, ya que todos los usuarios están invitados a estudiar y mejorar el software y a seguir desarrollándolo. 
+Además, LaTeX está disponible para casi todos los sistemas operativos, como Windows, Linux, Mac OS X y muchos más. LaTeX en sí no tiene interfaz gráfica de usuario; ésa es una de las razones por las que es tan portátil. Puedes elegir cualquier editor de texto como TeXworks o TeX Live para descargarlo y operar.
+
+Finalmente, intenta abrir un documento de hace 20 años escrito con un procesador de textos comercial y verás que probablemente este ha cambiado dadas las actualizaciones. LaTeX promete que el documento siempre será legible y dará el mismo resultado. Aunque se sigue desarrollando, seguirá siendo compatible con versiones anteriores.
+
+
+
+\section{¿Por qué aprender LaTeX?}
+
+Pueden proponerse varios argumentos a favor o en contra de aprender a utilizar LaTeX en lugar de otras aplicaciones de creación de documentos; pero, en última instancia, se trata de una elección personal basada en una preferencia.
+Soporte para la composición tipográfica de matemáticas extremadamente complejas, tablas y contenido técnico
+Facilidades para notas a pie de página, referencias cruzadas y gestión de bibliografías
+Facilidad para producir elementos documentales complicados o tediosos, como índices, glosarios, índices de contenido o listas de figuras
+Gran capacidad de personalización para crear documentos a medida, gracias a su programabilidad y a las múltiples opciones gracias a miles de paquetes complementarios gratuitos
+
+\section{Conclusiones}
+
+Además, al poder convertirlo en PDF, el estudiante invidente, por ejemplo, puede imprimirlo o enviarlo por correo electrónico a un profesor.
+
+Aunque escribir en LaTeX parezca programar, no le tengas miedo. Pronto conocerás los comandos de uso más frecuente. Los editores de texto con autocompletado y resaltado de palabras clave, por otro lado, te ayudarán. Incluso puedes encontrar menús y cuadros de diálogo con comand
+
+\bibliographystyle{plainnat} % Estilo de las citas
+\bibliography{referencias}   % Nombre del archivo .bib
+
+@article{¿Qué es LaTeX y cómo funciona esta útil herramienta para crear documentos?,
+    title={¿Qué es LaTeX y cómo funciona esta útil herramienta para crear documentos?},
+    author={Desconocido},
+    journal={Computer Hoy},
+    volume={322},
+    number={10},
+    pages={891--921},
+    year={2022}
+}
+
+\end{document}
