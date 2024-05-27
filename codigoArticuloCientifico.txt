@@ -1,0 +1,152 @@
+\documentclass[12pt, twoside]{article}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage[T1]{fontenc}
+
+\geometry{letterpaper, margin=1in}
+
+
+\pagestyle{fancy}
+\fancyhf{}  
+
+% Encabezado para páginas impares (izquierda)
+\fancyhead[LO]{Salud, Ciencia y Tecnología. 2022; 2:88   2}{\leftmark}
+
+% Encabezado para páginas pares (derecha)
+\fancyhead[RE]{Salud, Ciencia y Tecnología. 2022; 2:88   2}{\rightmark}
+
+% Número de página en el lado exterior de todas las páginas
+\fancyfoot[LO,RE]{\thepage}
+
+% Definir el color rojo para los títulos de sección
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{red}} % Formato de las secciones
+  {\thesection}{1em}{}
+
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\color{red}} % Formato de las subsecciones
+  {\thesubsection}{1em}{}
+
+
+\title{\textcolor{red}{Inteligencia artificial en el campo de la enfermería: implicaciones en la asistencia, administración y educación resumido por CARLOS FERNANDO ANCHUNDIA PARRAGA y MARIA JUDITH ALCIVAR RIVAS}}
+\author{Mejías M., Guarate Coronado Y.C., Jiménez Peralta A.L.}
+
+\begin{document}
+
+
+\maketitle
+\definecolor{palepink}{RGB}{255, 192, 203}
+
+
+\begin{tcolorbox}[colback=palepink, colframe=palepink, boxrule=0pt]
+
+\begin{abstract}
+La investigación sobre tecnologías basadas en inteligencia artificial (IA) en el cuidado de la salud ha aumentado significativamente en la última década, con aplicaciones que muestran un gran potencial para mejorar la atención. Este estudio tiene como objetivo analizar el uso de la IA en el campo de la enfermería y sus implicaciones en la asistencia, administración y educación. Se realizó una investigación documental revisando 42 artículos publicados entre 2018 y 2022, recopilados de bases de datos como PubMed, Google Académico y SciELO. Los resultados indican que el 64\% de los artículos mencionan el uso de la IA para desarrollar prototipos en el cuidado del paciente, el 7,15\% destacan su importancia en la toma de decisiones, gestión y calidad del servicio, y otro 7,15\% menciona el desarrollo de habilidades, pensamiento crítico y confianza. Se concluye que es necesaria una mayor participación de las enfermeras en el diseño de prototipos de cuidado, lo cual implica adquirir conocimientos sobre tecnología e inteligencia artificial como herramientas para brindar una atención de calidad.
+\end{abstract}
+\end{tcolorbox}
+
+
+
+\section{Introducción}
+Desde hace algunas décadas, la idea de aplicaciones o robots realizando actividades propias de los humanos ha estado presente en la mente de muchos científicos. Hoy en día, esta idea se ha materializado con la denominación de inteligencia artificial, impactando diversos ámbitos de la vida humana, incluyendo el económico, social, político, cultural y tecnológico. La incorporación de la IA en el campo de la salud está cambiando radicalmente la forma en que se proporciona atención médica, ofreciendo nuevas herramientas para diagnóstico, tratamiento y gestión de datos de pacientes.
+
+\section{Metodología}
+La investigación es de tipo documental y se basa en la revisión de artículos científicos. Los artículos consultados se recopilaron en las bases de datos PubMed, Google Académico y SciELO, abarcando publicaciones entre los años 2018 y 2022. Se analizaron un total de 42 artículos para identificar tendencias, aplicaciones y resultados del uso de la IA en la enfermería.
+
+\section{Resultados}
+Del total de artículos revisados:
+\begin{itemize}
+    \item 27 (64\%) mencionan el uso de la IA para desarrollar prototipos en el cuidado del paciente.
+    \item 3 (7,15\%) destacan la importancia de la IA en la toma de decisiones, gestión y calidad del servicio.
+    \item 3 (7,15\%) mencionan el desarrollo de habilidades, pensamiento crítico y confianza.
+\end{itemize}
+La mayoría de las investigaciones resaltan cómo la IA puede asistir en el monitoreo de pacientes, la personalización de tratamientos y la predicción de resultados clínicos. Sin embargo, también se subraya la necesidad de una formación adecuada del personal de enfermería para utilizar eficazmente estas tecnologías.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1\textwidth]{1-jpg.jpg}
+    \caption{Inteligencia Artificuial aplicada en la Enfermeria}
+    \label{fig:imagen}
+\end{figure}
+\section{Discusión}
+La incorporación de la IA en la educación de enfermería plantea grandes retos. Los educadores de enfermería deben combinar los conocimientos propios de la disciplina con la tecnología y las respuestas humanas ante el complejo proceso de salud-enfermedad. Es esencial que las enfermeras desarrollen competencias tecnológicas para participar activamente en el diseño y uso de herramientas basadas en IA, lo que requiere un cambio en los programas educativos y una mayor colaboración interdisciplinaria.
+\section{Conclusiones}
+Se requiere una mayor participación de las enfermeras en el diseño de prototipos de cuidado, lo que implica adquirir conocimientos sobre tecnología e inteligencia artificial como herramientas esenciales para proporcionar una atención de calidad. La nueva era tecnológica demanda una adaptación rápida y efectiva por parte de la educación en enfermería para preparar a las generaciones presentes y futuras. Además, es crucial que los organismos nacionales e internacionales promuevan y apoyen iniciativas de investigación en este campo.
+\section*{Agradecimientos}
+Este documento fue resumido por Carlos Fernando Anchundia Párraga y Maria Judith Alcivar Rivas 
+
+ 
+\section{Referencias}
+@article{GoogleAcademico,
+  author = {Mejías, M. and Guarate Coronado, Y. C. and Jiménez Peralta, A. L.},
+  title = {Inteligencia artificial en el campo de la enfermería: implicaciones en la asistencia, administración y educación},
+  journal = {Salud, Ciencia y Tecnología},
+  volume = {2},
+  number = {1},  % Assuming it's volume 2, number 1. Check your reference.
+  year = {2022},
+  pages = {88},
+  doi = {10.56294/saludcyt202288}
+}
+@article{Cai2021,
+  author = {Cai, Y. and Clinto, M. and Xiao, Z.},
+  title = {Artificial Intelligence Assistive Technology in Hospital Professional Nursing Technology},
+  year = {2021},
+  doi = {10.1155/2021/1721529}
+}
+
+@article{Yin2022,
+  author = {Yin, P. and Wang, H.},
+  title = {Evaluation of Nursing Effect of Pelvic Floor Rehabilitation Training on Pelvic Organ Prolapse in Postpartum Pregnant Women under Ultrasound Imaging with Artificial Intelligence Algorithm},
+  year = {2022},
+  doi = {10.1155/2022/1786994}
+}
+
+@article{Chen2022,
+  author = {Chen, X. and Huang, X. and Yin, M.},
+  title = {Implementation of Hospital-to-Home Model for Nutritional Nursing Management of Patients with Chronic Kidney Disease Using Artificial Intelligence Algorithm Combined with CT Internet +},
+  year = {2022},
+  doi = {10.1155/2022/1183988}
+}
+
+@article{Esteban2021,
+  author = {Esteban Ronquillo, C. and Peltonen, L.-M. and Pruinelli, L. and Chu, G. N. C. and Bakken, S. and Beduschi, L. L. B., et al.},
+  title = {Artificial intelligence in nursing: Priorities and opportunities from an international invitational think-tank of the Nursing and Artificial Intelligence Leadership Collaborative},
+  journal = {J Adv Nurs},
+  volume = {77},
+  pages = {3707--3717},
+  year = {2021},
+  doi = {10.1111/jan.14855}
+}
+
+@article{Shorey2019,
+  author = {Shorey, S. and Ang, E. and Yap, J. and Ng, E. D. and Lau, S. T. and Chui, C. K.},
+  title = {A Virtual Counseling Application Using Artificial Intelligence for Communication Skills Training in Nursing Education: Development Study},
+  journal = {Journal of Medical Internet Research},
+  volume = {21},
+  year = {2019},
+  doi = {10.2196/14658}
+}
+
+@article{Seibert2021,
+  author = {Seibert, K. and Domhoff, D. and Bruch, D. and Schulte-Althoff, M. and Fürstenau, D. and Biessmann, F., et al.},
+  title = {Application Scenarios for Artificial Intelligence in Nursing Care: Rapid Review},
+  journal = {Journal of Medical Internet Research},
+  volume = {23},
+  year = {2021},
+  doi = {10.2196/26522}
+}
+
+@article{Shang2021,
+  author = {Shang, Z.},
+  title = {A Concept Analysis on the Use of Artificial Intelligence in Nursing},
+  year = {2021},
+  doi = {10.7759/cureus.14857}
+}
+Repositorio Carlos Anchundia
+https://github.com/fernando-123445/inteligenciaArtificial/blob/55cde15f2ded5
+c9245c4aaf6a0a70409d97d8561/Codigo%20en%20Latex%20del%20Articulo%20Cient%C3%ADfico%20de%20la%20exposicion.rar
